@@ -140,7 +140,7 @@ const TicketBooking = () => {
                     {seat}
                   </button>
                 );
-              })}
+              })} 
             </div>
           ))}
         </div>

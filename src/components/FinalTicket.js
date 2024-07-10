@@ -16,7 +16,7 @@ const FinalTicket = () => {
           <QRCode value={JSON.stringify(bookingDetails)} />
         </div>
         <div className="ticket-details">
-          <p>Movie ID: {bookingDetails.movieId}</p>
+          <p>Movie id: {bookingDetails.movieId}</p>
           <p>Date: {bookingDetails.date}</p>
           <p>Show Time: {bookingDetails.showTime}</p>
           <p>Quantity: {bookingDetails.quantity}</p>

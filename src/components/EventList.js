@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './EventList.css';
 
 const events = [
@@ -15,10 +16,12 @@ const EventsPage = () => {
       </header>
       <div className="events-grid">
         {events.map(event => (
-          <div className="event-card" key={event.id}>
-            <img src={event.image} alt={event.title} />
-            <div className="event-title">{event.title}</div>
-          </div>
+          <Link key={event.id} to={`/book/${event.id}`} className="event-link">
+            <div className="event-card">
+              <img src={event.image} alt={event.title} />
+              <div className="event-title">{event.title}</div>
+            </div>
+          </Link>
         ))}
       </div>
     </div>
