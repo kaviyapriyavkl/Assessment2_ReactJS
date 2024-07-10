@@ -1,6 +1,7 @@
 .movie-list {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 0;
+   
   }
   
   .movie-navbar {
@@ -48,5 +49,29 @@
   .movie-card a {
     text-decoration: none;
     color: inherit;
+  }
+  
+
+  .blinking-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 5%;
+    margin-left: 46%;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    animation: blinking 2s infinite;
+  }
+  
+  @keyframes blinking {
+    2% { opacity: 1; }
+    20% { opacity: 0; }
+    10% { opacity: 1; }
   }
   

@@ -1,142 +1,73 @@
-/* body{
-    padding: 0;
-    margin: 0;
-}
-.movie-detail{padding: 0;
-margin: 0;}
+.movie-detail {
+  padding: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-  
-  .movie-info {
-    flex: 1;
-  } */
-  
-  /* .title h1 {
-    background-color: #f5ba13;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    padding:  20px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    margin: 0;
-  }
-  
-.Box{
-    padding: 50px;
-    border: #f5ba13 solid;
-    border-radius: 5px;
-    margin: 10% 35%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-  .description p {
-    margin-bottom: 20%;
+.movie-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10%;
+}
 
-  }
-  
-  .book-now a {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
-  }
-  
-  .book-now a:hover {
-    background-color: #0056b3;
-  }
-  
+.title h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
 
-  .card {
+.Box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.image {
+  flex: 1;
+  margin-right: 90px;
+  border: 1px solid #ccc; /* Add border to image container */
   padding: 10px;
+  border-radius: 5px;
 }
 
 .image img {
   max-width: 100%;
-  height: auto;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 10px;
-} */
+}
 
-/* MovieDetail.css */
+.descript {
+  flex: 2;
+  border: 1px solid #ccc; /* Add border to description container */
+  padding: 10px;
+  border-radius: 5px;
+}
 
+.book-now {
+  margin-top: 20px;
+}
 
-.title h1 {
-    background-color: #f5ba13;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    padding:  20px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    margin: 0;
-  }
+.btn-book-now {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: #f5ba13;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
 
-
-  
-  
-  .title h1 {
-    background-color: #f5ba13;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(255, 255, 255);
-    padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-  }
-  
-  .Box {
-    padding: 20px;
-    
-    margin: 2% 35%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-  }
-  
-  .card {
-    width: 100%;
-    padding: 15px;
-    border: #f5ba13;
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    
-  }
-  
-  .image {
-    width: 100%;
-    max-width: 300px; /* Adjust max-width as needed */
-    margin-bottom: 10px;
-  }
-  
-  .image img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .description {
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .book-now .btn-book-now {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #f5ba13;
-    color: black;
-    border-radius: 5px;
-    text-decoration: none;
-  }
-  
-  .book-now .btn-book-now:hover {
-    background-color:#f5ba13;
-    color: white;
-  }
-  
+.btn-book-now:hover{
+  color: black;
+}
