@@ -1,0 +1,42 @@
+.events-page {
+    background-color: #fff;
+  }
+  
+  .header {
+    background-color: #FFC107;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    color: #fff;
+  }
+  
+  .events-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .event-card {
+    background-color: #FFC107;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .event-title {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+  }
+  

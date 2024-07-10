@@ -1,0 +1,31 @@
+
+.final-ticket {
+    text-align: center;
+    padding: 0px;
+  }
+  
+  .fin-navbar {
+    background-color: #f5ba13;
+    color: #fff;
+    padding: 1px;
+    margin-bottom: 5%;
+  }
+  
+  .ticket-content {
+    margin:20%;
+    border: #f5ba13 solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .qr-code {
+    margin-right: 50px;
+  }
+  
+  .ticket-details {
+    font-size: 1.2em;
+  }
+  

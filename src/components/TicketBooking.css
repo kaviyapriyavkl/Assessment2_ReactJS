@@ -1,0 +1,330 @@
+/* .ticket-booking {
+    padding: 0;
+  }
+  
+  .tic-navbar {
+    background-color:#f5ba13;
+    padding: 2px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+
+.tic-box{
+    margin: 50px  30%;
+    border: #f5ba13 solid;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+  
+  input,
+  select {
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 5px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+ 
+  
+  .ticbutton {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color:#f5ba13;
+    color:black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .ticbutton:hover {
+    background-color:#f5ba13;
+    color: white;
+  }
+  
+
+  .ip{
+    border: none;
+    border-radius: 5px;
+  }
+
+  input:focus {
+    outline: none; 
+  } */
+
+  /* .tic-navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .tic-box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ip {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+  
+  .ticbutton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .seat-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .seat-row {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+  }
+  
+  .seat-row span {
+    margin-right: 10px;
+  }
+  
+  .seat {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .seat.selected {
+    background-color: #007bff;
+    color: white;
+  } */
+  /* .tic-navbar {
+    background-color:#f5ba13;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .tic-box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ip {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+  
+  .ticbutton {
+    background-color: #f5ba13;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .date-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .date-button {
+    background-color:#f9de93;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .date-button.selected {
+    background-color: black;
+    color: white;
+  }
+  
+  .seat-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .seat-row {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+  }
+  
+  .seat-row span {
+    margin-right: 10px;
+  }
+  
+  .seat {
+    width: 30px;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .seat.selected {
+    background-color: #16f93c;
+    color: white;
+  }
+   */
+
+   .date-buttons, .showtime-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .date-button, .showtime-button {
+    padding: 10px 20px;
+    border: none;
+    background-color:#fcde89;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .date-button.selected, .showtime-button.selected {
+    background-color: #090909;
+    color: white;
+  }
+  
+  .date-button:hover, .showtime-button:hover {
+    background-color: #f5ba13;
+    color: white;
+  }
+  
+
+  .tic-navbar {
+  background-color: #f5ba13;
+  padding: 10px;
+  text-align: center;
+}
+
+.tic-box {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ip {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+.ticbutton {
+  background-color: #f5ba13;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.ticbutton:hover{
+    background-color: #f5ba13;
+    color: #090909;
+}
+
+.date-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.date-button {
+  background-color: #f9de93;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.date-button:hover {
+  background-color: #f5ba13;
+}
+
+.date-button.selected {
+  background-color: black;
+  color: white;
+}
+
+.seat-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seat-row {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.seat-row span {
+  margin-right: 10px;
+}
+
+.seat {
+  width: 30px;
+  height: 40px;
+  margin: 5px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.seat:hover {
+  background-color: rgb(232, 232, 228);
+}
+
+.seat.selected {
+  background-color: #9fa09f;
+  color: black;
+}
